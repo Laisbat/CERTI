@@ -1,0 +1,4 @@
+br\com\avaliacaolais\certi\service\NumeroExtensoService.class
+br\com\avaliacaolais\certi\utils\ConversorNumeroExtensoUtil.class
+br\com\avaliacaolais\certi\controller\NumeroExtensoController.class
+br\com\avaliacaolais\certi\Application.class
