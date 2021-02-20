@@ -33,8 +33,8 @@
 
 ## :gear: **Requisitos**
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Maven](https://maven.apache.org/). 
+Antes de começar, você vai precisar ter configurado em sua máquina as seguintes ferramentas:
+[Maven](https://maven.apache.org/), [Java](https://www.java.com/pt-BR/). 
 Não é necessário ter uma IDE instalada, porém, caso queira eu recomendo o maravilhoso [InteliJ](https://www.jetbrains.com/idea/promo/?gclid=CjwKCAiAg8OBBhA8EiwAlKw3kiFN_3J8Up-Er7ITBBrvEgDnvQGePPfETugXYLD--GoVJsOVfgjf3hoCv78QAvD_BwE).
 
 ## :rocket: **Como executar o projeto**
@@ -42,19 +42,19 @@ Não é necessário ter uma IDE instalada, porém, caso queira eu recomendo o ma
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/Laisbat/CERTI.git>
+$ git clone https://github.com/Laisbat/CERTI.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd CERTI
 
 # Instale as dependências
-$ mvn clean install -DskipTests
+$ mvn clean install
 
 # Para iniciar o servidor
-$ mvn spring-boot:run -DskipTests
+$ mvn spring-boot:run
 
-# O servidor inciará na porta:8080 - acesse <http://localhost:8080/>
-$ Prontinho, só passar o parâmetro. Exemplo: <http://localhost:8080/1984>
+# O servidor inciará na porta:8080 - acesse http://localhost:8080/
+$ Prontinho, só passar o parâmetro. Exemplo: http://localhost:8080/1984
 ```
 
 ## :woman_technologist: **Sobre mim**
