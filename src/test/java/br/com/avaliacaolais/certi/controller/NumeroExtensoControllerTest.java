@@ -1,5 +1,6 @@
 package br.com.avaliacaolais.certi.controller;
 
+import br.com.avaliacaolais.certi.controller.v1.NumeroExtensoController;
 import br.com.avaliacaolais.certi.service.NumeroExtensoService;
 import br.com.avaliacaolais.certi.utils.ConversorNumeroExtensoUtil;
 import org.junit.Ignore;
@@ -7,10 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @Ignore
