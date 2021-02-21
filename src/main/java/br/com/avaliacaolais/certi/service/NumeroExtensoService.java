@@ -22,7 +22,6 @@ public class NumeroExtensoService {
                 return;
             }
             throw new ParametroException("Somente número é permitido nessa operação");
-
         }
     }
 }
