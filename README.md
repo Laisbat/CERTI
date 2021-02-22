@@ -1,5 +1,8 @@
 ![IS_Horizontal_Colorida_CMYK](https://user-images.githubusercontent.com/20651268/108606815-2b638680-739b-11eb-8239-5514cea1da54.png)
 
+## **Visão Geral**
+<p align="center">Esse projeto back-end foi criado com o intuito de ser aprovada no desafio da CERTI. Dito isto, temos a representação da construção de uma API. Foram utilizados os frameworks Spring Boot e Spring MVC.</p>
+
 <p align="center">
    <a href="#dart-objetivo">Objetivo</a> •
    <a href="#memo-roadmap">Roadmap</a> •
@@ -54,7 +57,9 @@ $ mvn clean install
 $ mvn spring-boot:run
 
 # O servidor inciará na porta:8080 - acesse http://localhost:8080/
-$ Prontinho, só passar o parâmetro. Exemplo: http://localhost:8080/1984
+$ Prontinho, só passar o parâmetro. Exemplo: http://localhost:8080/v1/1984
+
+# Swagger: http://localhost:8080/swagger-ui.html
 ```
 
 ## :woman_technologist: **Sobre mim**
