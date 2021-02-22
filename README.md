@@ -29,7 +29,7 @@
 
 - [x] Implementar o desfio
 - [ ] Implementar testes unitário
-- [ ] Ambiente Docker 
+- [x] Ambiente Docker 
 - [x] Fazer um bom README
 
 </p>
@@ -62,13 +62,26 @@ $ Prontinho, só passar o parâmetro. Exemplo: http://localhost:8080/v1/1984
 # Swagger: http://localhost:8080/swagger-ui.html
 ```
 
+### :whale: Rodando aplicação com Docker
+```bash
+# Para rodar a API com o Docker, é necessário baixar o mesmo aqui:
+[Docker](https://docs.docker.com/get-docker).
+$ Uma vez configurado, vá para o próximo passo
+
+# No cmd faça o pull(download) da imagem do repositório DockerHub
+$ docker pull laisbat/api-certi
+
+# Run:
+$ docker run --name api-certi -t -p 8080:8080 laisbat/api-certi:latest
+
+# Em seguida abra o seu navegador e insira o caminho abaixo:
+$ http://localhost:8080/v1/PARAMETRO
+```
+
 ## :woman_technologist: **Sobre mim**
 
 <p>Formada em Análise e desenvolvimento de sistemas pelo UniCEUB (2018). Apaixonada por:🎮💻🚴‍♀️🏊‍♀️ 🎵🍴</p>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Lais-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/laisbatistapereira/)](https://www.linkedin.com/in/laisbatistapereira/)
-[![Gmail Badge](https://img.shields.io/badge/-laisbatistapereira@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:laisbatistapereira@gmail.com)](mailto:laisbatistapereira@gmail.com)
-
-
-
-
+[![Linkedin Badge](https://img.shields.io/badge/-Lais-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/laisbatistapereira/)](https://www.linkedin.com/in/laisbatistapereira/)
+[![Gmail Badge](https://img.shields.io/badge/-laisbatistapereira@gmail.com-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:laisbatistapereira@gmail.com)](mailto:laisbatistapereira@gmail.com)
+[![Docker Badge](https://img.shields.io/docker/pulls/mashape/kong.svg-docker-blue?style=for-the-badge&logo=Docker&logoColor=white&link=https://https://hub.docker.com/repository/docker/laisbat/api-certi)](https://hub.docker.com/repository/docker/laisbat/api-certi)
